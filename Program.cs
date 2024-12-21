@@ -1,4 +1,4 @@
-using CS58_Razor09_Entity_ASP.Models;
+﻿using CS58_Razor09_Entity_ASP.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CS58_Razor09_Entity_ASP
@@ -42,3 +42,5 @@ namespace CS58_Razor09_Entity_ASP
         }
     }
 }
+//tự động phát sinh CRUD theo model
+//dotnet aspnet-codegenerator razorpage -m CS58_Razor09_Entity_ASP.Models.Article -dc CS58_Razor09_Entity_ASP.Models.MyBlogContext -outDir Pages/Blog -udl --referenceScriptLibraries
